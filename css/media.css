@@ -1,0 +1,156 @@
+@media screen and (max-width: 768px) {
+
+    .container {
+        text-align: center;
+        display: inline-block;
+        }
+
+    .header {
+        text-align: center;
+    }
+
+    .hamburger {
+        display: inline-block;
+        margin-right: 50px;
+    }
+
+    .nav {
+        position: absolute;
+        top: 150px;
+        left: 0;
+        /* height: 20%; */
+        display: flex;
+        align-items: center;
+        /* background-color: grey; */
+        width: 0;
+        min-width: 0;
+        transition: .5s;
+        overflow: hidden;
+    }
+
+    .nav.is-active {
+        padding: 0 10rem;
+        width: 150vh;
+        max-width: 200vh;
+        visibility: visible;
+    }
+
+    .nav__link {
+        margin: .8rem;
+        background: none;
+    }
+
+    /* .nav {
+        position: absolute;
+        top: 60%;
+        left: 10;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: grey;
+        height: 0;
+        min-height: 0;
+        transition: .5s;
+        overflow: hidden;
+    } */
+
+
+    /* .nav.is-active {
+        padding: 0 4rem;
+        height: 100vh;
+        max-height: 100vh;
+        visibility: visible;
+    } */
+
+    .logo {
+        margin-right: 200px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 372px) {
+
+        .nav {
+        position: absolute;
+        top: 60%;
+        left: 10;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: grey;
+        height: 0;
+        min-height: 0;
+        transition: .5s;
+        overflow: hidden;
+    }
+
+
+    .nav.is-active {
+        padding: 0 4rem;
+        height: 100vh;
+        max-height: 100vh;
+        visibility: visible;
+    }
+
+.header {
+    background: linear-gradient(rgba(198, 108, 73, 0.3) 50%, rgba(198, 108, 73, 0.3) 50%),
+    url(../img/bg2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.container {
+text-align: center;
+display: inline-block;
+}
+
+
+.logo {
+    margin: auto;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+.main-title__latest {
+    /* line-height: 290px; */
+    font-weight: normal;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.hamburger {
+    position: absolute;
+    padding-right: 300px;
+}
+
+.block {
+    display: inline-block;
+}
+
+.container__about {
+    margin: 30px;
+    text-align: center;
+}
+
+.picture-block1 {
+    display: inline-block;
+}
+
+.picture-block2 {
+    display: inline-block;
+}
+
+}

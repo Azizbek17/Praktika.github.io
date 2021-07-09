@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./font/LibreFranklin/stylesheet.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div class="container">
+
+            <div class="header-title">
+
+                <button class="hamburger hamburger--collapse" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+
+                <logo class="logo">
+                    Portfolio
+                </logo>
+
+                <div class="nav">
+                    <a href="#" class="nav__link">Home</a>
+                    <a href="#" class="nav__link">About</a>
+                    <a href="#" class="nav__link">Skills</a>
+                    <a href="#" class="nav__link">Portfolio</a>
+                    <a href="#" class="nav__link">Contact</a>
+                </div>
+
+            </div>
+
+            <div class="main-title">
+                <h1>Hi, It’s Théophile Seyrig</h1>
+                <h2>Designer from Porto, Portugal</h2>
+                <h3 class="main-title__latest">Latest works</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <section class="about">
+        <div class="container container__about">
+            <logo class="logo">
+                About
+            </logo>
+
+            <div class="about-text">
+                <p>Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam
+                    penatibus
+                    aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed.
+                    Consectetur
+                    adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis. </p>
+
+                <p>Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus, in
+                    rutrum
+                    augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit.
+                    Egestas
+                    porttitor nulla nulla egestas odio pharetra egestas aliquet mollis. diam penatibus aliquet tellus,
+                    in
+                    rutrum augue. Pellentesque.p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container container__skills">
+            <logo class="logo">
+                Skills
+            </logo>
+            <div class="img-block">
+                <img class="profile-man" src="./img/Profile Picture.png">
+            </div>
+            <div class="skills-block">
+                <div class="block profile_block">
+                    <p>Profile</p>
+                    <p>UI / UX Engineer, Front-end Developer</p>
+                </div>
+                <div class="block UX-block">
+                    <p>UX Research</p>
+                    <svg class="research" width="380" height="24">
+                    </svg>
+                </div>
+                <div class="block tools-block">
+                    <p>Tools</p>
+                    <p>Paper, Pen, Balsamiq</p>
+                </div>
+                <div class="block UI-block">
+                    <p>UI Design</p>
+                    <svg class="design" width="380" height="24"></svg>
+                </div>
+                <div class="block tools-block">
+                    <p>Tools</p>
+                    <p>Adobe PS, AI, XD, Figma, InVision</p>
+                </div>
+                <div class="block Front-end_block">
+                    <p>Front-end Dev</p>
+                    <svg class="front" width="380" height="24"></svg>
+                </div>
+                <div class="block tools-block">
+                    <p>Tools</p>
+                    <p>HTML, CSS, JS, Bootstrap, React</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container container__port">
+            <logo class="logo">
+                Portfolio
+            </logo>
+            <div class="research-block">
+                <h2>UX Research</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure necessitatibus reiciendis, temporibus
+                    quisquam neque natus culpa iste repudiandae tenetur, commodi doloribus, omnis ad atque modi ipsa
+                    porro voluptatibus quas quibusdam.</p>
+            </div>
+            <div class="picture-block">
+                <div class="picture-block1">
+                    <img class="sheep" src="./img/photo1.png">
+                    <img class="bridge" src="./img/dom-luis-bridge-porto-carol-japp.png">
+                </div>
+                <div class="picture-block2">
+                    <img class="river" src="./img/photo2.png">
+                    <img class="flat" src="./img/photo4.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container container__footer">
+            <logo class="logo">
+                Get in Touch
+            </logo>
+            <div class="contact-1">
+                <p>Dribble</p>
+                <p>Behance</p>
+                <p>CodePen</p>
+                <p>GitHub</p>
+                <p>Medium</p>
+            </div>
+
+            <div class="contact-2">
+                <p>Linkedin</p>
+                <p>Facebook</p>
+                <p>Instagrem</p>
+                <p>Twitter</p>
+            </div>
+
+            <div class="contact-3">
+                <p>seyrig@mailme.com</p>
+                <p>+ 55 6645 665544</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var hamburger = document.querySelector(".hamburger");
+        var nav = document.querySelector(".nav");
+        hamburger.addEventListener("click", function () {
+            hamburger.classList.toggle("is-active");
+            nav.classList.toggle("is-active");
+        });
+    </script>
+
+
+</body>
+
+</html>
